@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>//alert ("hello)
+        function Greet() {
+            let uname = document.getElementById("t1").value;
+            if (uname == "")
+            {
+                alert("Please Enter Your Name :")
+            }
+            alert("Hello  " + uname);
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td> Enter  Name:</td>
+                <td> <input type="text" id="t1" /></td>
+                <td><input type="button" value="Greet" onclick="Greet()" /></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
